@@ -3,11 +3,16 @@ package karthick.mca.sowmiya.KarthickMca.oop;
 import java.io.Serializable;
 
 // bean/ business/ entity/ model class/ pojo
-public class Bus implements Serializable// marked interface
+public class Bus implements Comparable<Bus>, Serializable// marked interface
 {
 	private String travels, origin, stop, type, am;
-	private int seats, price;
-	private long regno;
+	private Integer seats, price;
+	private Long regno;
+	@Override
+	public int compareTo(Bus o) {
+		//return this.travels.compareTo(o.travels);
+		return o.price.compareTo(this.price);
+	}
 	public Bus() {System.out.println("Default contructor called");}
 	
 	@Override
