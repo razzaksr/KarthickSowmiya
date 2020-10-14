@@ -24,7 +24,7 @@ public class Home extends JFrame implements ActionListener
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -35,7 +35,7 @@ public class Home extends JFrame implements ActionListener
 				}
 			}
 		});
-	}
+	}*/
 
 	/**
 	 * Create the frame.
@@ -93,10 +93,14 @@ public class Home extends JFrame implements ActionListener
 		else if(e.getSource()==m3)
 		{
 			JOptionPane.showMessageDialog(Home.this, "ComboBox will open soon");
+			DemoComboBox frame = new DemoComboBox();
+			frame.setVisible(true);
 		}
 		else if(e.getSource()==m4)
 		{
 			JOptionPane.showMessageDialog(Home.this, "ListBox will open soon");
+			DemoListBox frame = new DemoListBox();
+			frame.setVisible(true);
 		}
 	}
 }

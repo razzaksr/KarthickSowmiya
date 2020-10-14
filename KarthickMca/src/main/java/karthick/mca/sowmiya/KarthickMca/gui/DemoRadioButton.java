@@ -26,7 +26,7 @@ public class DemoRadioButton extends JFrame implements ItemListener
 	/**
 	 * Launch the application.
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -37,7 +37,7 @@ public class DemoRadioButton extends JFrame implements ItemListener
 				}
 			}
 		});
-	}
+	}*/
 
 	/**
 	 * Create the frame.
