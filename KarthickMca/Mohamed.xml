@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bus regno="540635">
+    <am>GPS</am>
+    <origin>Chennai</origin>
+    <price>2760</price>
+    <seats>35</seats>
+    <stop>Hyderabad</stop>
+    <travels>Parveen</travels>
+    <type>AC Sleeper</type>
+</bus>
